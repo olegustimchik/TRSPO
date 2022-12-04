@@ -127,6 +127,7 @@ public class Lab_2{
             threads[i].start();
         }
     }
+    
     public static double randomNumber(int leastNumber, int upperBound){ 
         return Math.random()*(upperBound - leastNumber + 1 ) + leastNumber; 
     }
