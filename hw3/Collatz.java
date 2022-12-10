@@ -64,7 +64,7 @@ public class Collatz{
     public static void main(String [] args) { 
         Queue<NumberInQueue> numbers = new LinkedList<NumberInQueue>(); 
         long start = System.currentTimeMillis(); 
-        for(int i = 0; i < 100000; i++){ 
+        for(int i = 0; i < 1000000; i++){ 
             numbers.add(new NumberInQueue((int)randomNumber(100, 10000))); 
         }
 

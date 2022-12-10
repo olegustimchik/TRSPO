@@ -1,4 +1,11 @@
 {
     "jupyter.kernels.filter": [],
-    "terminal.integrated.fontSize": 15
+    "terminal.integrated.fontSize": 15,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+    ],
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "vector": "cpp"
+    }
 }
